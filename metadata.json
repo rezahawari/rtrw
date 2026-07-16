@@ -1,0 +1,6 @@
+{
+  "name": "RT/RW Digital",
+  "description": "Aplikasi layanan administrasi, keuangan, surat pengantar, pengaduan, pasar UMKM, siskamling, dan panic button warga RT/RW.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

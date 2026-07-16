@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RT/RW Digital - Menteng</title>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#059669" />
+  </head>
+  <body class="bg-slate-50 antialiased selection:bg-emerald-100 selection:text-emerald-800">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then((reg) => {
+            console.log('SW Registered successfully', reg.scope);
+          }).catch((err) => {
+            console.log('SW Register failed', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+

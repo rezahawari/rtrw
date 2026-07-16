@@ -1,0 +1,17 @@
+{
+  "short_name": "RT/RW Digital",
+  "name": "RT/RW Digital Menteng",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/609/609803.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#ffffff",
+  "theme_color": "#059669",
+  "display": "standalone",
+  "orientation": "portrait"
+}
